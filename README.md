@@ -1610,7 +1610,7 @@ gpu Unrolling8  elapsed 0.000293 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
 gpu Unrolling16 elapsed 0.000280 sec gpu_sum: 2139353471 <<<grid 2048 block 512>>>
 gpu UnrollWarp8 elapsed 0.000315 sec gpu_sum: 2139353471 <<<grid 4096 block 512>>>
 gpu Cmptnroll8  elapsed 0.000383 sec gpu_sum: 2139353471 <<<grid 4096 block 512>>>
-gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>>>
+gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>>> 
 ==7688== Profiling application: ./a.out
 ==7688== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
