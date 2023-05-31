@@ -1570,8 +1570,8 @@ gpu Cmptnroll   elapsed 0.000387 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     370ns         1     370ns     370ns     370ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
 ```
-![output](https://github.com/RuchithaReddy28/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/1.png?raw=true)
-![output](https://github.com/RuchithaReddy28/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/2.png?raw=true)
+![output](https://github.com/Saibandhavi75/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/1.png?raw=true)
+![output](https://github.com/Saibandhavi75/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/2.png?raw=true)
 ### kernel reduceUnrolling16
 ```
 Password: 
@@ -1643,8 +1643,8 @@ gpu Cmptnroll   elapsed 0.000305 sec gpu_sum: 2139353471 <<<grid 4096 block 512>
                     0.00%     300ns         1     300ns     300ns     300ns  cuDeviceGetUuid
 root@MidPC:/home/student/Desktop#
 ```
-![output](https://github.com/RuchithaReddy28/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/3.png?raw=true)
-![output](https://github.com/RuchithaReddy28/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/4.png?raw=true)
+![output](https://github.com/Saibandhavi75/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/3.png?raw=true)
+![output](https://github.com/Saibandhavi75/PCA-Simple-warp-divergence---Implement-Sum-Reduction./blob/main/4.png?raw=true)
 
 The time taken by the kernel reduceUnrolling16 is comparatively less to the kernal reduceUnrolling8 as each thread in the kernel reduceUnrolling16 handles 16 data blocks.
 
